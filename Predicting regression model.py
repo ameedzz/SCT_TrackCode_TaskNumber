@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Loading the sample dataset
-file_path = "r"C:\Users\madha\Downloads\housing_sample.csv"  # Make sure the CSV file is in the same directory
+file_path = r"C:\Users\madha\Downloads\housing_sample.csv"  # Make sure the CSV file is in the same directory
 df = pd.read_csv(file_path)
 
 
